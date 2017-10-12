@@ -1,0 +1,67 @@
+.simple_tree_list {
+	background: #FFF;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+	margin:  0 20px 40px 0;
+}
+
+.simple_tree_list * {
+	box-sizing: border-box;
+}
+
+.simple_tree_list_item {
+	border-bottom: 1px solid #E3E3E3;
+	height: 35px;
+	font-size: 15px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.simple_tree_list_title {
+	display: block;
+	float: left;
+	height: 35px;
+	padding: 7px 15px;
+	text-decoration: none;
+	width: calc(100% - 82px);
+}
+
+.simple_tree_list_edit,
+.simple_tree_list_hide {
+	display: block;
+	float: left;
+	height: 35px;
+	padding: 7px 0;
+	text-align: center;
+	width: 40px;
+}
+
+.simple_tree_list_item:nth-child(2n) {
+	background: #FAFAFA;
+}
+
+.simple_tree_list_item:last-child {
+	border: none;
+}
+
+.simple_tree_list .dashicons-move {
+	color: #333;
+	cursor: grab;
+	margin: 0 10px 0 -5px;
+}
+
+.simple_tree_list .ui-sortable-helper .dashicons-move {
+	cursor: grabbing;
+}
+
+.simple_tree_list .dashicons-move::before {
+	font-size: 20px;	
+}
+
+.simple_tree_list .dashicons-edit {
+	color: #FFCC00;
+}
+
+.simple_tree_list .dashicons-edit::before {
+	font-size: 25px;
+}
