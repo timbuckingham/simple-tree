@@ -29,7 +29,7 @@
 .simple_tree_list_edit,
 .simple_tree_list_hide {
 	display: block;
-	float: left;
+	float: right;
 	height: 35px;
 	padding: 7px 0;
 	text-align: center;
